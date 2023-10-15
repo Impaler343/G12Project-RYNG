@@ -1,0 +1,134 @@
+easy,good,hard,very hard,forgot:
+
+[less intensive]
+alg1:
+easy = 3 times longer than previous one
+good = 2 times longer
+hard = same interval
+very hard = 0.5 times curr interval
+forgot = restart alg
+
+[more intensive]
+alg2 = 5min, 1hr, 1day, 2 days, 3,5,8,13,21,34,55,89,144,233,377… [Fibonacci series]
+
+at new stage:
+good - proceed with alg
+
+
+at 5 min stage:
+easy - jump to 1 day
+good - proceed with alg
+forgot - set card to new
+
+at 1 hr stage:
+easy - jump to 2 days
+good - proceed with alg
+hard - repeat after 5min
+forgot - set card to new
+
+at 1 day stage:
+easy - jump to 2 days / 3 times longer than previous one
+good - proceed with alg / good = 2 times longer
+hard - rep after 1 hr / hard = same interval
+forgot - set card to new
+
+at 2 day stage:
+easy - jump to 3 days / 3 times longer than previous one
+good - proceed with alg / good = 2 times longer
+hard - rep after 1 day / hard = same interval
+very hard - rep after 1 hr / very hard = 0.5 times curr interval
+forgot - set card to new
+
+.
+.
+.
+.
+
+falling behind on schedule:-
+
+if you fall behind 1 interval:
+easy - do what easy does
+good - do what hard does
+forgot - set to new
+
+if you fall behind 2 intervals or more:
+
+good - do what easy does
+hard - do what very hard does
+forgot - set to new
+
+
+
+different decks
+add notes
+flag card in different colors
+due counts
+delete card
+add card, edit card
+set daily review limit
+browsing, searching decks
+(finding duplicates, reverse cards, answer showing by default, night mode, sharing decks publicly and browsing public decks)
+
+Pass before username?
+No Duplicates
+Notes label
+
+
+
+
+
+
+
+
+
+pyglet.font.add_directory() - adds all font files in the current directory
+
+line 522
+
+line 874
+
+brief the time algo applied
+
+brief the package creation
+the exe file has the code and the modules, use pyinstaller module, make it through command prompt
+a software called inoscript uses you to make packages, use the folder, select all your files, icons, name and all, click it, it will combine it into an exe file, which is downloaded 
+
+buffered = True will immediately execute the command, else it will only executed only when we fetch it
+
+ttk is used to import new and updated styles to tkinter from the ttk module
+
+passing an event to a function
+the function is called an event handler, which receives the event
+
+threading
+Python threading allows you to have different parts of your program run concurrently and can simplify your design.
+A thread is a separate flow of execution.
+A daemon is a process that runs in the background.
+If a program is running Threads that are not daemons, then the program will wait for those threads to complete before it terminates. Threads that are daemons, however, are just killed wherever they are when the program is exiting.
+
+Multithreading:
+The CPU execution switches between these threads very quickly and gives off the impression that the computer is running things in parallel.
+
+types of threads:-
+User-level threads: These are the ones we can actively play with within our code etc.
+Kernel-level threads: These are very low-level threads that act on behalf of the operating system.
+
+def fixed_map()
+This is a developer level fix for a bug in the __style_object__.map('Treeview',foreground = ..., background = ...)
+It removes excess keys that start with '!disabled' and '!selected' and only allows keys that start with 'disabled' and 'selected' that are mapped to the foreground and background attributes
+This enables us to change foreground and background colours of the Treeview on demand
+
+instead of fetching one by one, when we use buffered = True, it fetch the entire resultset for us to work on
+For nonbuffered cursors, rows are not fetched from the server until a row-fetching method is called. 
+In this case, you must be sure to fetch all rows of the result set before executing any other statements on the same connection, else error will come, this is useful as we are not necessarily fething all the rows in each cursor command
+
+exe file
+An executable file (EXE file) is a computer file that contains an encoded sequence of instructions that the system can execute directly when the user clicks the file icon.
+
+secrets - Used instead of roll no. etc., as if we delete a card, and then add another one, it will have the same roll no. as the last card(im not sure abt this)
+
+traceback
+Printing the stack trace to handle the exception generated. The printing stack trace for an exception helps in understanding the error and what went wrong with the code.
+(idk why you needed this, pls check and update this)
+
+
